@@ -2,7 +2,8 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Last Commit](https://img.shields.io/github/last-commit/ChamaAz/Biblioteca-API?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
+- **Git:** Control de versiones.  
 
 API REST para gestionar una colección de libros.  
 Permite operaciones CRUD: crear, listar, obtener por ID, actualizar, marcar leído/no leído y eliminar libros.
