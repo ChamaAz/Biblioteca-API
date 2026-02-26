@@ -41,3 +41,17 @@ Clonar el repositorio e instalar dependencias:
 git clone https://github.com/ChamaAz/Biblioteca-API.git
 cd Biblioteca-API
 npm install
+
+Endpoints principales:
+
+GET /books → Listar todos los libros
+
+GET /books/:id → Obtener un libro por ID
+
+POST /books → Crear un libro
+
+PUT /books/:id → Actualizar un libro
+
+PATCH /books/:id/read → Marcar libro como leído/no leído
+
+DELETE /books/:id → Eliminar un libro
