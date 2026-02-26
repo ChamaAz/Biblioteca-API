@@ -1,46 +1,82 @@
-# 📚 Biblioteca API REST
+📚 Biblioteca API REST
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript)
-- **Git:** Control de versiones.  
+Tecnologías: Node.js, Express, JavaScript
+Control de versiones: Git
 
-API REST para gestionar una colección de libros.  
-Permite operaciones CRUD: crear, listar, obtener por ID, actualizar, marcar leído/no leído y eliminar libros.
+📝 Descripción
 
----
+API REST para gestionar una colección de libros. Permite operaciones CRUD: crear, listar, obtener por ID, actualizar, marcar leído/no leído y eliminar libros.
 
-## 🎯 Objetivo
+Objetivo: Desarrollar un backend funcional que permita gestionar libros mediante operaciones CRUD, con almacenamiento temporal en memoria usando un array (data/books.js).
 
-Desarrollar un servicio backend que permita gestionar libros mediante operaciones CRUD:
+⚡ Funcionalidades
 
-- Crear un libro  
-- Listar todos los libros  
-- Obtener un libro por ID  
-- Actualizar un libro  
-- Marcar un libro como leído/no leído  
-- Eliminar un libro  
+Crear un libro
 
-> ⚠️ Nota: Los datos se almacenan en memoria usando un array (`data/books.js`).
+Listar todos los libros
 
----
+Obtener un libro por ID
 
-## 🛠 Tecnologías
+Actualizar un libro
 
-- **Node.js + Express** — Rapidez y facilidad para manejar JSON y rutas REST.
-- **Array en memoria (`data/books.js`)** — Almacenamiento temporal de los libros.
+Marcar un libro como leído/no leído
 
-### Opciones alternativas permitidas
-- PHP con Laravel  
-- Python con Flask o FastAPI  
+Eliminar un libro
 
----
+🛠 Tecnologías
 
-## 🚀 Instalación
+Node.js + Express — Manejo rápido de JSON y rutas REST
 
-Clonar el repositorio:
+Array en memoria (data/books.js) — Almacenamiento temporal de los libros
 
-```bash
+Opciones alternativas permitidas:
+
+PHP con Laravel
+
+Python con Flask o FastAPI
+
+🚀 Instalación
+
+Clonar el repositorio e instalar dependencias:
+
 git clone https://github.com/ChamaAz/Biblioteca-API.git
 cd Biblioteca-API
 npm install
+🖥 Uso
+
+Ejecutar el servidor:
+
+npm start
+
+Endpoints principales:
+
+GET /books → Listar todos los libros
+
+GET /books/:id → Obtener un libro por ID
+
+POST /books → Crear un libro
+
+PUT /books/:id → Actualizar un libro
+
+PATCH /books/:id/read → Marcar libro como leído/no leído
+
+DELETE /books/:id → Eliminar un libro
+
+🤝 Contribución
+
+Si quieres colaborar:
+
+Haz un fork del proyecto
+
+Crea tu rama (git checkout -b feature/nueva-funcionalidad)
+
+Haz commit de tus cambios (git commit -m 'Añadir nueva funcionalidad')
+
+Haz push a la rama (git push origin feature/nueva-funcionalidad)
+
+Abre un Pull Request
+
+📄 Licencia
+
+Este proyecto está bajo la MIT License
+.
